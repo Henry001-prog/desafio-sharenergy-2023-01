@@ -36,18 +36,18 @@ export const ViewList = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
   margin-top: 2%;
   margin-right: 2%;
+  margin-bottom: 10%;
   @media (min-width: 280px) and (max-width: 653px) {
     margin-top: 15%;
   }
 `;
 
 export const AddButton = styled.button`
-  justify-content: flex-start;
-  align-items: flex-start;
   border-radius: 10px;
   font-size: 0.8em;
   width: 35.5%;
